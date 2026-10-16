@@ -1,0 +1,86 @@
+/* El Yardero - vanilla CSS, old-Safari friendly (no inset, no gap on flex, safe-area insets, 100dvh with 100vh fallback) */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:18px;line-height:1.55;color:#1b1f1c;background:#f6f3ea;-webkit-tap-highlight-color:transparent;overflow-x:hidden}
+#app{min-height:100vh;min-height:100dvh;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right);padding-bottom:calc(76px + env(safe-area-inset-bottom));max-width:760px;margin:0 auto}
+button,input{font:inherit;color:inherit}
+a{color:#1d5a3a}
+h1,h2,h3,p{overflow-wrap:anywhere;word-wrap:break-word}
+#top{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;padding-top:calc(10px + env(safe-area-inset-top));background:#1f5f3a;color:#fff;position:-webkit-sticky;position:sticky;top:0;z-index:20}
+.brand{display:flex;align-items:center;text-decoration:none;color:#fff;min-height:48px}
+.logo{font-size:30px;margin-right:10px}
+.bt b{display:block;font-size:21px;line-height:1.1}.bt small{display:block;font-size:14px;opacity:.9}
+.lang{display:flex;background:#174a2d;border-radius:24px;padding:3px}
+.lb{min-width:48px;min-height:44px;border:0;border-radius:22px;background:transparent;color:#cfe8d8;font-weight:800;font-size:16px;cursor:pointer;-webkit-appearance:none;appearance:none;touch-action:manipulation}
+.lb[aria-pressed="true"]{background:#f2b632;color:#2b2100}
+#view{padding:14px;outline:0}
+.hero{background:#fff;border-radius:20px;padding:18px 16px;box-shadow:0 2px 10px #0002;margin-bottom:14px}
+.hero h2{margin:0 0 6px;font-size:24px;line-height:1.2;color:#1f5f3a}
+.hero p{margin:0 0 12px}
+.btn{display:inline-block;min-height:52px;padding:12px 20px;border:0;border-radius:26px;background:#1f5f3a;color:#fff;font-weight:800;font-size:18px;text-decoration:none;text-align:center;cursor:pointer;-webkit-appearance:none;appearance:none;touch-action:manipulation;box-shadow:0 3px 0 #0003}
+.btn.alt{background:#f2b632;color:#2b2100}
+.btn.ghost{background:#fff;color:#1f5f3a;border:3px solid #1f5f3a;box-shadow:none}
+.btn:active{transform:translateY(2px)}
+.btn[disabled]{opacity:.45}
+.search{display:block;width:100%;min-height:52px;padding:10px 16px;font-size:18px;border:3px solid #c9d8cd;border-radius:16px;background:#fff;-webkit-appearance:none;appearance:none}
+.search:focus,.askin:focus{outline:0;border-color:#1f5f3a}
+.cats{margin:12px -4px 4px;display:flex;flex-wrap:wrap}
+.cat{margin:4px;min-height:44px;padding:6px 14px;border:2px solid #1f5f3a;border-radius:22px;background:#fff;color:#1f5f3a;font-weight:700;font-size:16px;cursor:pointer;-webkit-appearance:none;appearance:none;touch-action:manipulation}
+.cat[aria-pressed="true"]{background:#1f5f3a;color:#fff}
+.count{margin:8px 2px;color:#4a554d;font-size:15px}
+.cards{list-style:none;margin:0;padding:0}
+.cards li{margin:0 0 12px}
+.card{display:block;text-decoration:none;color:inherit;background:#fff;border-radius:18px;padding:14px 16px;box-shadow:0 2px 8px #0002;border-left:8px solid #1f5f3a;min-height:76px}
+.card:active{background:#eef5f0}
+.card h3{margin:2px 0 4px;font-size:19px;line-height:1.25;color:#17432b}
+.card p{margin:0;font-size:16px;color:#3b463e;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.badge{display:inline-block;font-size:13px;font-weight:800;color:#5c4300;background:#fbe3a5;border-radius:12px;padding:1px 10px;margin-bottom:2px}
+.empty{background:#fff;border-radius:16px;padding:16px;text-align:center;font-size:17px}
+.consult{background:#fff7dc;border:3px solid #f2b632;border-radius:18px;padding:14px 16px;margin:16px 0}
+.consult h3{margin:0 0 6px;font-size:19px;color:#5c4300}.consult p{margin:0 0 10px;font-size:16.5px}.consult p:last-child{margin-bottom:0}
+/* lesson page */
+.back{display:inline-block;min-height:48px;line-height:48px;font-weight:800;text-decoration:none;color:#1f5f3a}
+.lesson h1{font-size:27px;line-height:1.2;margin:4px 0 6px;color:#17432b}
+.meta{color:#4a554d;font-size:15px;margin:0 0 12px}
+.lesson .body p{margin:0 0 14px;font-size:19px;line-height:1.6}
+.act{display:flex;flex-wrap:wrap;margin:12px -4px}
+.act .btn{margin:4px;flex:1 1 150px}
+.pn{display:flex;margin:16px -4px}
+.pn a{display:block;flex:1 1 0;min-width:0;margin:4px;padding:10px 12px;background:#fff;border-radius:14px;text-decoration:none;box-shadow:0 2px 6px #0002;min-height:64px}
+.pn a small{display:block;color:#4a554d;font-size:13px;font-weight:700}
+.pn a span{display:block;font-size:15px;line-height:1.25;font-weight:700;color:#17432b;overflow-wrap:anywhere}
+.pn a.r{text-align:right}
+.pn .ph{flex:1 1 0;margin:4px}
+.share{font-size:14px;color:#4a554d;word-break:break-all;margin:6px 0 0}
+/* ask */
+.aibox{display:flex;align-items:flex-start;background:#e8f1ea;border-radius:16px;padding:12px 14px;margin-bottom:12px;font-size:16px}
+.ai{flex:0 0 auto;background:#1f5f3a;color:#fff;font-weight:800;border-radius:10px;padding:2px 9px;margin-right:10px;font-size:15px;margin-top:2px}
+.askform{display:flex;margin:0 0 10px}
+.askin{flex:1 1 auto;min-width:0;min-height:54px;padding:10px 14px;font-size:18px;border:3px solid #c9d8cd;border-radius:16px 0 0 16px;border-right:0;background:#fff;-webkit-appearance:none;appearance:none}
+.askgo{flex:0 0 auto;min-width:96px;min-height:54px;border:0;border-radius:0 16px 16px 0;background:#1f5f3a;color:#fff;font-weight:800;font-size:18px;cursor:pointer;-webkit-appearance:none;appearance:none;touch-action:manipulation}
+.chipsh{margin:6px 2px 2px;font-weight:800;font-size:16px;color:#3b463e}
+.chips{display:flex;flex-wrap:wrap;margin:0 -4px 12px}
+.chip{margin:4px;min-height:48px;padding:8px 16px;border:2px solid #1f5f3a;border-radius:24px;background:#fff;color:#17432b;font-weight:700;font-size:16.5px;text-align:left;line-height:1.25;cursor:pointer;-webkit-appearance:none;appearance:none;touch-action:manipulation;max-width:100%}
+.chip:active{background:#dcebe1}
+.pair{margin:0 0 18px}
+.q{background:#1f5f3a;color:#fff;border-radius:18px 18px 4px 18px;padding:10px 14px;margin:0 0 8px 28px;font-size:17px;overflow-wrap:anywhere}
+.a{background:#fff;border-radius:18px 18px 18px 4px;padding:12px 14px;margin:0 14px 0 0;box-shadow:0 2px 8px #0002}
+.a p{margin:0 0 10px;font-size:17.5px;line-height:1.55}
+.a .srch{margin:8px 0 4px;font-weight:800;font-size:15px;color:#4a554d}
+.src{display:block;margin:4px 0;padding:8px 12px;min-height:44px;border-radius:12px;background:#e8f1ea;font-weight:700;font-size:16px;text-decoration:none;color:#17432b;overflow-wrap:anywhere}
+.typing{display:inline-block;padding:6px 4px}
+.typing i{display:inline-block;width:10px;height:10px;margin:0 3px;border-radius:50%;background:#7a9a85;-webkit-animation:bl 1s infinite;animation:bl 1s infinite}
+.typing i:nth-child(2){-webkit-animation-delay:.2s;animation-delay:.2s}.typing i:nth-child(3){-webkit-animation-delay:.4s;animation-delay:.4s}
+@-webkit-keyframes bl{0%,80%,100%{opacity:.25}40%{opacity:1}}@keyframes bl{0%,80%,100%{opacity:.25}40%{opacity:1}}
+.aiby{font-size:13px;color:#5a645d;margin:8px 0 0}
+.clear{display:block;margin:0 auto 12px;min-height:44px;padding:6px 16px;border:0;background:transparent;color:#1f5f3a;font-weight:700;text-decoration:underline;cursor:pointer}
+/* footer + nav */
+#foot{padding:6px 16px 18px;font-size:14px;color:#4a554d;text-align:center}
+#foot p{margin:4px 0}
+#foot a{color:#1d5a3a;font-weight:700}
+#nav{position:fixed;left:0;right:0;bottom:0;z-index:25;display:flex;background:#fff;box-shadow:0 -2px 10px #0003;padding-bottom:env(safe-area-inset-bottom)}
+#nav a{flex:1 1 0;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60px;text-decoration:none;color:#4a554d;font-weight:800;font-size:14px}
+#nav a .ic{font-size:24px;line-height:1.1}
+#nav a.on{color:#1f5f3a;background:#e8f1ea;box-shadow:inset 0 -4px 0 #1f5f3a}
+#toast{position:fixed;left:12px;right:12px;bottom:calc(80px + env(safe-area-inset-bottom));z-index:40;background:#1b1f1c;color:#fff;border-radius:14px;padding:12px 14px;text-align:center;font-size:16px;display:none;overflow-wrap:anywhere}
+@media (prefers-reduced-motion:reduce){.typing i{-webkit-animation:none;animation:none;opacity:.7}.btn:active{transform:none}}

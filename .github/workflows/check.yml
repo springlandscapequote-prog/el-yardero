@@ -1,0 +1,13 @@
+name: Check data and chips
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['version.js', 'version.json']
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/check_data.py
+      - run: node tests/chips_test.js

@@ -1,0 +1,6 @@
+private/
+*.export.md
+brain_export*
+__pycache__/
+node_modules/
+shots/

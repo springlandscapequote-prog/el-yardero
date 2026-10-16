@@ -1,0 +1,286 @@
+{
+ "categories": {
+  "precios": {
+   "es": "Precios y estimados",
+   "en": "Pricing & estimates",
+   "kw": [
+    "price",
+    "pricing",
+    "quote",
+    "estimate",
+    "margin",
+    "cost",
+    "rate",
+    "matrix",
+    "markup",
+    "add on",
+    "scope"
+   ]
+  },
+  "ventas": {
+   "es": "Ventas y seguimiento",
+   "en": "Sales & follow-up",
+   "kw": [
+    "lead",
+    "follow",
+    "sell",
+    "yes",
+    "sale",
+    "email",
+    "reply",
+    "past customer",
+    "fast",
+    "answer",
+    "estimate"
+   ]
+  },
+  "resenas": {
+   "es": "Reseñas y Google",
+   "en": "Reviews & Google",
+   "kw": [
+    "review",
+    "google",
+    "listing",
+    "reputation"
+   ]
+  },
+  "dinero": {
+   "es": "Cobros y contabilidad",
+   "en": "Billing & books",
+   "kw": [
+    "invoice",
+    "payment",
+    "deposit",
+    "bank",
+    "bill",
+    "books",
+    "payroll",
+    "cash",
+    "bookkeep",
+    "supplier",
+    "withdrawal",
+    "paid",
+    "owed"
+   ]
+  },
+  "impuestos": {
+   "es": "Impuesto de venta",
+   "en": "Sales tax",
+   "kw": [
+    "tax",
+    "taxes"
+   ]
+  },
+  "cuadrillas": {
+   "es": "Cuadrillas y rutas",
+   "en": "Crews & routes",
+   "kw": [
+    "crew",
+    "route",
+    "gps",
+    "truck",
+    "stop",
+    "timesheet",
+    "shop",
+    "dispatch",
+    "lunch",
+    "hazard"
+   ]
+  },
+  "equipo": {
+   "es": "Equipo y pago",
+   "en": "Team & pay",
+   "kw": [
+    "raise",
+    "worker",
+    "employee",
+    "team",
+    "hire"
+   ]
+  },
+  "sistemas": {
+   "es": "Sistemas y delegación",
+   "en": "Systems & delegation",
+   "kw": [
+    "write down",
+    "template",
+    "owner",
+    "system",
+    "delegate",
+    "record",
+    "log"
+   ]
+  },
+  "oficio": {
+   "es": "Oficio y calidad",
+   "en": "Craft & quality",
+   "kw": [
+    "plant",
+    "prun",
+    "photo",
+    "technical",
+    "quality",
+    "irrigation"
+   ]
+  }
+ },
+ "tags": {
+  "gps": {
+   "es": "GPS",
+   "en": "GPS",
+   "kw": [
+    "gps"
+   ]
+  },
+  "resenas": {
+   "es": "reseñas",
+   "en": "reviews",
+   "kw": [
+    "review",
+    "reviews"
+   ]
+  },
+  "impuestos": {
+   "es": "impuestos",
+   "en": "tax",
+   "kw": [
+    "tax",
+    "taxes"
+   ]
+  },
+  "precios": {
+   "es": "precios",
+   "en": "pricing",
+   "kw": [
+    "price",
+    "pricing",
+    "prices",
+    "quote",
+    "quoting"
+   ]
+  },
+  "margen": {
+   "es": "margen",
+   "en": "margin",
+   "kw": [
+    "margin"
+   ]
+  },
+  "nomina": {
+   "es": "nómina",
+   "en": "payroll",
+   "kw": [
+    "payroll",
+    "payday",
+    "timesheets"
+   ]
+  },
+  "facturas": {
+   "es": "facturas",
+   "en": "invoices",
+   "kw": [
+    "invoice",
+    "invoices",
+    "billing",
+    "bill"
+   ]
+  },
+  "estimados": {
+   "es": "estimados",
+   "en": "estimates",
+   "kw": [
+    "estimate",
+    "estimates"
+   ]
+  },
+  "clientes": {
+   "es": "clientes",
+   "en": "customers",
+   "kw": [
+    "customer",
+    "customers",
+    "clients"
+   ]
+  },
+  "rutas": {
+   "es": "rutas",
+   "en": "routes",
+   "kw": [
+    "route",
+    "routes"
+   ]
+  },
+  "seguimiento": {
+   "es": "seguimiento",
+   "en": "follow-up",
+   "kw": [
+    "follow up",
+    "follow ups",
+    "follow up",
+    "followup",
+    "follow"
+   ]
+  },
+  "proveedores": {
+   "es": "proveedores",
+   "en": "suppliers",
+   "kw": [
+    "supplier",
+    "suppliers"
+   ]
+  },
+  "subcontratistas": {
+   "es": "subcontratistas",
+   "en": "subcontractors",
+   "kw": [
+    "sub",
+    "subcontractor",
+    "subcontractors"
+   ]
+  },
+  "fotos": {
+   "es": "fotos",
+   "en": "photos",
+   "kw": [
+    "photo",
+    "photos",
+    "pictures"
+   ]
+  },
+  "banco": {
+   "es": "banco",
+   "en": "bank",
+   "kw": [
+    "bank",
+    "deposit",
+    "deposits",
+    "cash"
+   ]
+  },
+  "google": {
+   "es": "Google",
+   "en": "Google",
+   "kw": [
+    "google"
+   ]
+  },
+  "cuadrilla": {
+   "es": "cuadrilla",
+   "en": "crew",
+   "kw": [
+    "crew",
+    "crews"
+   ]
+  },
+  "ventas": {
+   "es": "ventas",
+   "en": "sales",
+   "kw": [
+    "sell",
+    "sales",
+    "lead",
+    "leads"
+   ]
+  }
+ }
+}

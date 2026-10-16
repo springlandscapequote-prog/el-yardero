@@ -1,0 +1,114 @@
+{
+ "categories": {
+  "precios": {
+   "es": "Precios y estimados",
+   "en": "Pricing & estimates"
+  },
+  "ventas": {
+   "es": "Ventas y seguimiento",
+   "en": "Sales & follow-up"
+  },
+  "resenas": {
+   "es": "Reseñas y Google",
+   "en": "Reviews & Google"
+  },
+  "dinero": {
+   "es": "Cobros y contabilidad",
+   "en": "Billing & books"
+  },
+  "impuestos": {
+   "es": "Impuesto de venta",
+   "en": "Sales tax"
+  },
+  "cuadrillas": {
+   "es": "Cuadrillas y rutas",
+   "en": "Crews & routes"
+  },
+  "equipo": {
+   "es": "Equipo y pago",
+   "en": "Team & pay"
+  },
+  "sistemas": {
+   "es": "Sistemas y delegación",
+   "en": "Systems & delegation"
+  },
+  "oficio": {
+   "es": "Oficio y calidad",
+   "en": "Craft & quality"
+  }
+ },
+ "tags": {
+  "gps": {
+   "es": "GPS",
+   "en": "GPS"
+  },
+  "resenas": {
+   "es": "reseñas",
+   "en": "reviews"
+  },
+  "impuestos": {
+   "es": "impuestos",
+   "en": "tax"
+  },
+  "precios": {
+   "es": "precios",
+   "en": "pricing"
+  },
+  "margen": {
+   "es": "margen",
+   "en": "margin"
+  },
+  "nomina": {
+   "es": "nómina",
+   "en": "payroll"
+  },
+  "facturas": {
+   "es": "facturas",
+   "en": "invoices"
+  },
+  "estimados": {
+   "es": "estimados",
+   "en": "estimates"
+  },
+  "clientes": {
+   "es": "clientes",
+   "en": "customers"
+  },
+  "rutas": {
+   "es": "rutas",
+   "en": "routes"
+  },
+  "seguimiento": {
+   "es": "seguimiento",
+   "en": "follow-up"
+  },
+  "proveedores": {
+   "es": "proveedores",
+   "en": "suppliers"
+  },
+  "subcontratistas": {
+   "es": "subcontratistas",
+   "en": "subcontractors"
+  },
+  "fotos": {
+   "es": "fotos",
+   "en": "photos"
+  },
+  "banco": {
+   "es": "banco",
+   "en": "bank"
+  },
+  "google": {
+   "es": "Google",
+   "en": "Google"
+  },
+  "cuadrilla": {
+   "es": "cuadrilla",
+   "en": "crew"
+  },
+  "ventas": {
+   "es": "ventas",
+   "en": "sales"
+  }
+ }
+}

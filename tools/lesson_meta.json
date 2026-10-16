@@ -1,0 +1,184 @@
+{
+ "fernando-s-pruning-standard": {
+  "title_en": "Know the plant before you prune",
+  "title_es": "Conoce la planta antes de podar",
+  "category": "oficio"
+ },
+ "fernando-s-repeat-customer-sales-principle": {
+  "title_en": "Your easiest sale is a past customer",
+  "title_es": "Tu venta más fácil es un cliente anterior",
+  "category": "ventas"
+ },
+ "fernando-s-speed-to-sale-principle": {
+  "title_en": "Speed sells",
+  "title_es": "La rapidez también vende",
+  "category": "ventas"
+ },
+ "fernando-s-jobsite-photo-principle": {
+  "title_en": "Take photos the moment you arrive",
+  "title_es": "Toma fotos desde que llegas",
+  "category": "oficio",
+  "exclude": "Spanish text names a software vendor and a companion anecdote has a dollar amount; held for owner review"
+ },
+ "fernando-s-technical-work-standard": {
+  "title_en": "Don't lead a job you don't understand yet",
+  "title_es": "No dirijas un trabajo que todavía no entiendes",
+  "category": "oficio"
+ },
+ "fernando-s-sustainable-pay-principle": {
+  "title_en": "Raises need lasting value and profit",
+  "title_es": "Los aumentos necesitan valor y utilidad constantes",
+  "category": "equipo"
+ },
+ "fernando-s-seasonal-reminder-practice": {
+  "title_en": "Fall reminder to past aeration and overseeding customers",
+  "title_es": "Recordatorio de otoño para clientes de aireación y resiembra",
+  "category": "ventas"
+ },
+ "fernando-s-follow-up-practice": {
+  "title_en": "Follow up three to five days after the estimate",
+  "title_es": "Dale seguimiento al estimado a los tres a cinco días",
+  "category": "ventas"
+ },
+ "fernando-s-approval-rule": {
+  "title_en": "Mark a customer's yes approved the same day",
+  "title_es": "Marca el sí del cliente como aprobado el mismo día",
+  "category": "ventas"
+ },
+ "fernando-s-promise-rule": {
+  "title_en": "Write down every site-visit promise",
+  "title_es": "Apunta cada visita que prometes",
+  "category": "sistemas"
+ },
+ "fernando-s-review-request-practice": {
+  "title_en": "Check three things before asking for a review",
+  "title_es": "Revisa tres cosas antes de pedir una reseña",
+  "category": "resenas"
+ },
+ "fernando-s-add-on-service-approach": {
+  "title_en": "Plan an add-on around your real routes",
+  "title_es": "Planea un servicio adicional según tus rutas reales",
+  "category": "precios"
+ },
+ "fernando-s-re-pricing-rule": {
+  "title_en": "Re-price whenever you add a person or a truck",
+  "title_es": "Vuelve a sacar el precio cuando agregas gente o camionetas",
+  "category": "precios"
+ },
+ "fernando-s-crew-day-audit": {
+  "title_en": "Audit one crew-day every week",
+  "title_es": "Revisa un día de cuadrilla cada semana",
+  "category": "cuadrillas"
+ },
+ "fernando-s-bookkeeping-rule": {
+  "title_en": "Money in the bank isn't money in the books",
+  "title_es": "El dinero en el banco no es dinero en tus libros",
+  "category": "dinero"
+ },
+ "fernando-s-software-switch-rule": {
+  "title_en": "A software switch is a free billing audit",
+  "title_es": "Cambiar de programa es una auditoría de cobros gratis",
+  "category": "dinero"
+ },
+ "fernando-s-pricing-sheet-rule": {
+  "title_en": "Your price is only as good as the math under it",
+  "title_es": "Tu precio vale lo que valen sus números",
+  "category": "precios"
+ },
+ "fernando-s-crew-handoff-rule": {
+  "title_en": "Dispatch the crew from the approved estimate",
+  "title_es": "Manda a la cuadrilla con el estimado aprobado",
+  "category": "cuadrillas"
+ },
+ "fernando-s-repeat-customer-pricing-rule": {
+  "title_en": "Re-quote last year's job at today's rate",
+  "title_es": "Cotiza el trabajo del año pasado al precio de hoy",
+  "category": "precios"
+ },
+ "fernando-s-route-change-rule": {
+  "title_en": "Check GPS history before moving a customer to another crew or day",
+  "title_es": "Revisa el GPS antes de cambiar a un cliente de cuadrilla o de día",
+  "category": "cuadrillas"
+ },
+ "fernando-s-quote-email-rule": {
+  "title_en": "Rewrite your software's default quote email",
+  "title_es": "Reescribe el correo de cotización que trae tu programa",
+  "category": "ventas"
+ },
+ "fernando-s-quarterly-tax-check": {
+  "title_en": "Check sales tax rates every quarter",
+  "title_es": "Revisa las tasas del impuesto de venta cada trimestre",
+  "category": "impuestos"
+ },
+ "fernando-s-multi-service-pricing-rule": {
+  "title_en": "Price a multi-service day from cost first",
+  "title_es": "En trabajos con varios servicios, saca el precio desde el costo",
+  "category": "precios"
+ },
+ "fernando-s-add-on-pricing-rule": {
+  "title_en": "Price an add-on with your real crew-hour cost",
+  "title_es": "Ponle precio a un servicio adicional con tu costo real por hora",
+  "category": "precios"
+ },
+ "fernando-s-template-rule": {
+  "title_en": "Make your templates say what your crew really does",
+  "title_es": "Haz que tus plantillas digan lo que tu cuadrilla de verdad hace",
+  "category": "sistemas"
+ },
+ "fernando-s-job-notes-rule": {
+  "title_en": "Put site hazards in internal job notes",
+  "title_es": "Pon los peligros del lugar en las notas internas",
+  "category": "cuadrillas"
+ },
+ "fernando-s-real-experience": {
+  "absorb_prev_solo": true
+ },
+ "sales-tax-follows-the-job-site-not-the-billing-address": {
+  "category": "impuestos"
+ },
+ "fix-a-wrong-tax-rate-at-the-source-not-just-on-the-invoice": {
+  "category": "impuestos"
+ },
+ "when-a-house-sells-bill-the-old-owner-before-closing": {
+  "category": "dinero"
+ },
+ "keep-personal-money-out-of-the-business-account": {
+  "category": "dinero"
+ },
+ "label-a-transfer-the-moment-you-make-it": {
+  "category": "dinero"
+ },
+ "label-every-withdrawal-when-you-make-it": {
+  "category": "dinero"
+ },
+ "write-down-every-answer-the-owner-gives-so-nobody-asks-twice": {
+  "category": "sistemas"
+ },
+ "scrub-a-mass-seasonal-send-before-it-goes-out": {
+  "category": "ventas"
+ },
+ "a-yes-isn-t-a-job-until-it-s-on-the-calendar": {
+  "category": "ventas"
+ },
+ "don-t-let-follow-ups-wait-on-the-owner": {
+  "category": "ventas"
+ },
+ "price-a-group-of-neighbors-as-one-job": {
+  "category": "cuadrillas"
+ },
+ "sell-the-result-not-the-time": {
+  "category": "precios"
+ },
+ "give-big-jobs-a-good-option-and-a-best-option-and-quote-fast": {
+  "category": "ventas"
+ },
+ "lenders-want-3-years-of-tax-returns-so-save-your-own-copies": {
+  "category": "dinero"
+ },
+ "measure-what-you-really-earn-per-on-site-hour-and-compare": {
+  "category": "cuadrillas"
+ },
+ "clean-up-your-books-before-you-switch-software-or": {
+  "category": "dinero"
+ }
+}
